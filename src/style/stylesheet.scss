@@ -1,0 +1,204 @@
+// Self-made styles + something from create-react-app
+body {
+  background-color: white;
+  background: url("../assets/images/5604640-illuminati-wallpaper.jpg");
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+$cold: #7395AE;
+$gold: #dbbf77;
+$warning: #ffc107;
+
+.App {
+  /*text-align: center;*/
+}
+
+.App-header {
+  background-color: #222;
+  height: 160px;
+  padding: 20px;
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes My-spinner {
+  from { transform: rotate(0deg) scale(0.9); }
+  50% { transform: rotate(180deg) scale(1); }
+  to { transform: rotate(360deg) scale(0.9); }
+}
+
+@keyframes My-spinner-reverse {
+  from { transform: rotate(0deg) scale(0.9); }
+  50% { transform: rotate(-180deg) scale(0.8); }
+  to { transform: rotate(-360deg) scale(0.9); }
+}
+
+
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+  padding: 20vh 10vh;
+  border-radius: .5rem;
+  background-color: rgba(34,34,34,.9);
+  overflow: hidden;
+}
+
+.btn-gold {
+  color: $gold;
+  border-color: $gold;
+
+  &:hover {
+    color: black;
+    background-color: $gold;
+    border-color: $gold;
+  }
+}
+
+.nav-bar {
+  .btn {
+    svg {
+      color: $gold;
+      border-color: $gold;
+    }
+    &:hover svg {
+      color: black;
+    }
+    &.btn-outline-secondary:hover svg {
+      color: white;
+    }
+  }
+}
+
+.login-form-label {
+  color: $warning;
+}
+
+.home-page {
+  .welcome-block {
+    margin-bottom: 20px;
+
+    .welcome-title {
+      color: $warning;
+    }
+  }
+}
+
+.login-page {
+  .content-wrapper {
+    padding: 10vh 0;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.secrets-page {
+
+  .content-wrapper {
+    padding: 8vh 5vh;
+  }
+
+  .secrets-content {
+    color: $warning;
+    text-align: center;
+
+    .fascinating-title {
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 900;
+    }
+
+    .secrets-list {
+      display: inline-block;
+      list-style: none;
+      padding-left: 0;
+
+      .secret {
+        font-size: 1.8em;
+
+        a {
+          text-decoration-line: none;
+        }
+      }
+    }
+  }
+}
+
+.user-page {
+  .content-wrapper {
+    padding: 10vh 5vh;
+  }
+
+  .header {
+    color: $warning;
+  }
+
+  .user-info-table {
+    font-size: 1.3em;
+    th, td {
+      padding: 5px 10px;
+    }
+    thead {
+      color: $gold;
+      th {
+
+      }
+    }
+    tbody {
+      color: $warning;
+      td {
+
+      }
+    }
+  }
+}
+
+.error-page {
+
+  .content-wrapper {
+    padding: 20vh 5vh;
+  }
+
+  .error-content {
+    color: brown;
+    text-align: center;
+
+    .error-title {
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 900;
+
+      .wrong-path {
+        color: red;
+        font-size: 0.85em;
+        text-transform: lowercase;
+      }
+    }
+
+    .error-message {
+      font-size: 20px;
+    }
+  }
+}
+

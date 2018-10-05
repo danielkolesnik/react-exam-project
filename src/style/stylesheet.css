@@ -1,0 +1,139 @@
+body {
+  background-color: white;
+  background: url("../assets/images/5604640-illuminati-wallpaper.jpg");
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+.App {
+  /*text-align: center;*/ }
+
+.App-header {
+  background-color: #222;
+  height: 160px;
+  padding: 20px;
+  color: white; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px; }
+
+.App-title {
+  font-size: 1.5em; }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+@keyframes My-spinner {
+  from {
+    transform: rotate(0deg) scale(0.9); }
+  50% {
+    transform: rotate(180deg) scale(1); }
+  to {
+    transform: rotate(360deg) scale(0.9); } }
+
+@keyframes My-spinner-reverse {
+  from {
+    transform: rotate(0deg) scale(0.9); }
+  50% {
+    transform: rotate(-180deg) scale(0.8); }
+  to {
+    transform: rotate(-360deg) scale(0.9); } }
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+  padding: 20vh 10vh;
+  border-radius: .5rem;
+  background-color: rgba(34, 34, 34, 0.9);
+  overflow: hidden; }
+
+.btn-gold {
+  color: #dbbf77;
+  border-color: #dbbf77; }
+  .btn-gold:hover {
+    color: black;
+    background-color: #dbbf77;
+    border-color: #dbbf77; }
+
+.nav-bar .btn svg {
+  color: #dbbf77;
+  border-color: #dbbf77; }
+
+.nav-bar .btn:hover svg {
+  color: black; }
+
+.nav-bar .btn.btn-outline-secondary:hover svg {
+  color: white; }
+
+.login-form-label {
+  color: #ffc107; }
+
+.home-page .welcome-block {
+  margin-bottom: 20px; }
+  .home-page .welcome-block .welcome-title {
+    color: #ffc107; }
+
+.login-page .content-wrapper {
+  padding: 10vh 0;
+  flex-direction: row;
+  justify-content: center; }
+
+.secrets-page .content-wrapper {
+  padding: 8vh 5vh; }
+
+.secrets-page .secrets-content {
+  color: #ffc107;
+  text-align: center; }
+  .secrets-page .secrets-content .fascinating-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900; }
+  .secrets-page .secrets-content .secrets-list {
+    display: inline-block;
+    list-style: none;
+    padding-left: 0; }
+    .secrets-page .secrets-content .secrets-list .secret {
+      font-size: 1.8em; }
+      .secrets-page .secrets-content .secrets-list .secret a {
+        text-decoration-line: none; }
+
+.user-page .content-wrapper {
+  padding: 10vh 5vh; }
+
+.user-page .header {
+  color: #ffc107; }
+
+.user-page .user-info-table {
+  font-size: 1.3em; }
+  .user-page .user-info-table th, .user-page .user-info-table td {
+    padding: 5px 10px; }
+  .user-page .user-info-table thead {
+    color: #dbbf77; }
+  .user-page .user-info-table tbody {
+    color: #ffc107; }
+
+.error-page .content-wrapper {
+  padding: 20vh 5vh; }
+
+.error-page .error-content {
+  color: brown;
+  text-align: center; }
+  .error-page .error-content .error-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900; }
+    .error-page .error-content .error-title .wrong-path {
+      color: red;
+      font-size: 0.85em;
+      text-transform: lowercase; }
+  .error-page .error-content .error-message {
+    font-size: 20px; }
