@@ -9,7 +9,7 @@ export const secretsList = [
         url: 'http://www.angelfire.com/crazy2/coolsite0/humor/santa.html'
     },
     {
-        title: '...as well as Snowman',
+        title: '...as well as Yeti',
         url: 'http://www.bbc.co.uk/newsbeat/article/42167489/its-official-scientists-conclude-there-is-no-such-thing-as-the-yeti'
     },
     {

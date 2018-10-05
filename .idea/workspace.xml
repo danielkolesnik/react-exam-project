@@ -2,74 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04187d0a-c18c-462d-b6d1-76bbd549b9bb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/android-icon-144x144.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/android-icon-192x192.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/android-icon-36x36.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/android-icon-48x48.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/android-icon-72x72.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/android-icon-96x96.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-icon-114x114.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-icon-120x120.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-icon-144x144.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-icon-152x152.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-icon-180x180.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-icon-57x57.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-icon-60x60.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-icon-72x72.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-icon-76x76.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-icon-precomposed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/browserconfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/favicon-16x16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/favicon-32x32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/favicon-96x96.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/ms-icon-144x144.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/ms-icon-150x150.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/ms-icon-310x310.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/ms-icon-70x70.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/actions/types.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/5604640-illuminati-wallpaper.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/iluminati.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/preloader-dynamic.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/preloader-static.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/preloader.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/sun-preloader.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/sun-preloader.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/triangle.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/header/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/login.form/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/preloaders/basic.preloader.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/secrets/secrets.base.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/users/user.base.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/admin.private.page/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/admin.private.page/reducer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/admin.private.page/saga.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/error.page/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/home.page/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/login.page/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/login.page/reducer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/login.page/saga.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/secrets.private.page/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pages/user.private.page/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/registerServiceWorker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/saga/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/store.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/style/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/style/stylesheet.scss" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" afterPath="$PROJECT_DIR$/public/manifest.json" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" afterPath="$PROJECT_DIR$/src/assets/images/logo.svg" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/components/secrets/secrets.base.js" afterPath="$PROJECT_DIR$/src/components/secrets/secrets.base.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+      <file leaf-file-name="secrets.base.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/secrets/secrets.base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            <state relative-caret-position="187">
+              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -149,7 +83,6 @@
         <option value="$PROJECT_DIR$/src/components/login.form/index.js" />
         <option value="$PROJECT_DIR$/src/style/stylesheet.scss" />
         <option value="$PROJECT_DIR$/src/pages/error.page/index.js" />
-        <option value="$PROJECT_DIR$/src/components/secrets/secrets.base.js" />
         <option value="$PROJECT_DIR$/src/pages/secrets.private.page/index.js" />
         <option value="$PROJECT_DIR$/src/actions/types.js" />
         <option value="$PROJECT_DIR$/src/pages/admin.private.page/reducer.js" />
@@ -160,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/pages/admin.private.page/index.js" />
         <option value="$PROJECT_DIR$/src/pages/login.page/reducer.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/components/secrets/secrets.base.js" />
       </list>
     </option>
   </component>
@@ -213,14 +147,14 @@
               <item name="exam-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="exam-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exam-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="exam-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="secrets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,12 +244,12 @@
       <workItem from="1538490499943" duration="8312000" />
       <workItem from="1538564797552" duration="20422000" />
       <workItem from="1538648738723" duration="22619000" />
-      <workItem from="1538723984691" duration="20946000" />
+      <workItem from="1538723984691" duration="21575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72299000" />
+    <option name="totallyTimeSpent" value="72928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1672" y="-42" width="1936" height="1056" extended-state="6" />
@@ -324,7 +258,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41694537" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Unicode Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24303234" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -618,14 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/secrets/secrets.base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/secrets.private.page/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-119">
@@ -782,6 +708,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/secrets/secrets.base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding />
         </state>
       </provider>
