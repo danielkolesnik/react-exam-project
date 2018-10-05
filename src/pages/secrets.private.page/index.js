@@ -4,11 +4,10 @@ import { Container, Row, Col } from 'reactstrap';
 import { connect } from 'react-redux';
 
 // local dependencies
+// actually it should be taken with emulation of making request & downloading through the saga(like on login & admin pages), but I had not enough of time for that
 import { secretsList } from '../../components/secrets/secrets.base';
 
 class Secrets extends React.Component {
-
-
 
     render() {
         return (

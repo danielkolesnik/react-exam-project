@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04187d0a-c18c-462d-b6d1-76bbd549b9bb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/components/secrets/secrets.base.js" afterPath="$PROJECT_DIR$/src/components/secrets/secrets.base.js" />
+      <change beforePath="$PROJECT_DIR$/src/pages/secrets.private.page/index.js" afterPath="$PROJECT_DIR$/src/pages/secrets.private.page/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="secrets.base.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="secrets.base.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/secrets/secrets.base.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/secrets.private.page/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="162" lean-forward="true" selection-start-line="6" selection-start-column="162" selection-end-line="6" selection-end-column="162" />
               <folding />
             </state>
           </provider>
@@ -83,7 +92,6 @@
         <option value="$PROJECT_DIR$/src/components/login.form/index.js" />
         <option value="$PROJECT_DIR$/src/style/stylesheet.scss" />
         <option value="$PROJECT_DIR$/src/pages/error.page/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/secrets.private.page/index.js" />
         <option value="$PROJECT_DIR$/src/actions/types.js" />
         <option value="$PROJECT_DIR$/src/pages/admin.private.page/reducer.js" />
         <option value="$PROJECT_DIR$/src/saga/index.js" />
@@ -94,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/pages/login.page/reducer.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/secrets/secrets.base.js" />
+        <option value="$PROJECT_DIR$/src/pages/secrets.private.page/index.js" />
       </list>
     </option>
   </component>
@@ -153,8 +162,14 @@
               <item name="exam-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="exam-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="secrets" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="secrets.private.page" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,12 +259,12 @@
       <workItem from="1538490499943" duration="8312000" />
       <workItem from="1538564797552" duration="20422000" />
       <workItem from="1538648738723" duration="22619000" />
-      <workItem from="1538723984691" duration="21575000" />
+      <workItem from="1538723984691" duration="21858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72928000" />
+    <option name="totallyTimeSpent" value="73211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1672" y="-42" width="1936" height="1056" extended-state="6" />
@@ -552,16 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/secrets.private.page/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#13#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/users/user.base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -716,6 +721,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/secrets.private.page/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="162" lean-forward="true" selection-start-line="6" selection-start-column="162" selection-end-line="6" selection-end-column="162" />
           <folding />
         </state>
       </provider>
