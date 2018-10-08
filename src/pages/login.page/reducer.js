@@ -6,21 +6,24 @@ import { LOGIN, LOGOUT } from '../../actions/types';
 
 
 // configuration
-let initial = {
+let initialState = {
     preloader: false,
-    auth: false,
-    user: {},
+    // auth: false,
+    // user: {},
     // to be auto loggined on reload please comment two strings before and uncomment two strings after that string  [NOTICE: For dev purposes ONLY]
-    // auth: true,
-    // user: {name: 'Test', surname: 'Testovich', nick: 'testNick', pass: 'testPass', admin: true}
+    auth: true,
+    user: {name: 'Test', surname: 'Testovich', nick: 'testNick', pass: 'testPass', admin: true}
 };
 
 // export
-export default function ( state = initial, action ) {
+export default function ( state = initialState, action ) {
     let { type, ...options } = action;
     switch ( type ) {
         default:
             state = {...state};
+            break;
+        case LOGIN.CLEAR:
+            state = initialState;
             break;
         case LOGIN.PRELOADER:
             state = { ...state, preloader: options.preloader };

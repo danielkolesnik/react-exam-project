@@ -14,61 +14,64 @@ import User from './user.private.page';
 import Admin from './admin.private.page';
 import Error from './error.page';
 
-let getRouts = (auth, user) => {
-    let routList = [
-        {
-            to: '/',
-            component: Home
-        },
-        {
-            to: '/login',
-            component: Login
-        }
-    ];
-    if(auth) {
-        routList = [
-            ...routList,
-            {
-                to: '/secrets',
-                component: Secrets
-            },
-            {
-                to: '/user-settings',
-                component: User
-            }
-        ];
-        for(let route of routList) {
-            if( route.to === '/login') {
-                routList.splice(routList.indexOf(route), 1);
-            }
-        }
-    }
-    if(user && user.admin) {
-        routList = [
-            ...routList,
-            {
-                to: '/admin-page',
-                component: Admin
-            }
-        ];
 
-    }
-    routList = [
-        ...routList,
-        {
-            component: Error
-        }
-    ];
-
-    return routList;
-};
 
 class Layout extends React.Component {
 
+    routList = [];
 
     render() {
+        // add base routes for all users
+        this.routList = [
+            {
+                name: 'home',
+                to: '/',
+                component: Home
+            },
+            {
+                name: 'login',
+                to: '/login',
+                component: Login
+            }
+        ];
+        // add private routes for authenticated users
+        if(this.props.authenticated) {
+            this.routList = this.routList.concat([
+                {
+                    name: 'secrets',
+                    to: '/secrets',
+                    component: Secrets
+                },
+                {
+                    name: 'user',
+                    to: '/user-settings',
+                    component: User
+                }
+            ]);
+            for(let route of this.routList) {
+                if( route.to === '/login') {
+                    this.routList.splice(this.routList.indexOf(route), 1);
+                }
+            }
+        }
+        // add private route especially for admins
+        if(this.props.user && this.props.user.admin) {
+            this.routList = this.routList.concat([
+                {
+                    name: 'admin',
+                    to: '/admin-page',
+                    component: Admin
+                }
+            ]);
 
-        const actualRoutList = getRouts(this.props.authenticated, this.props.user);
+        }
+        // add error page for non-existent routes (NOTE it should be added last because of specifications of React Router)
+        this.routList = this.routList.concat([
+            {
+                name: 'error',
+                component: Error
+            }
+        ]);
 
         return (
             <Router>
@@ -76,7 +79,7 @@ class Layout extends React.Component {
                     <Route path='/' component={ Header }/>
                     <Switch>
                         {
-                            actualRoutList.map((route, index) => {
+                            this.routList.map((route, index) => {
                                 if(route.to) {
                                     return <Route key={index} path={ route.to } component={ route.component } exact strict/>;
                                 } else {

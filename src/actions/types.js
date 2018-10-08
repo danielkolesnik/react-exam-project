@@ -9,7 +9,7 @@ export const SUFFIX = {
 export function createType ( type ) {
     let action = {};
     for ( let name of Object.keys(SUFFIX) ) {
-        action[name] = `${type}.${name}`;
+        action[name] = `${type}.${SUFFIX[name]}`;
     }
     return action;
 }
@@ -21,6 +21,7 @@ export const LOGIN = {
     CHECK_LOGIN: createType(loginPrefix+'CHECK_LOGIN'),
     UPDATE_DATA: loginPrefix+'UPDATE_DATA',
     HANDLE_ERROR: loginPrefix+'HANDLE_ERROR',
+    CLEAR: loginPrefix+'CLEAR',
     // complex
     LOG_IN: loginPrefix+'LOG_IN',
 };
@@ -33,6 +34,7 @@ export const ADMIN = {
     GET_DATA: createType(userPrefix+'GET_DATA'),
     UPDATE_DATA: userPrefix+'UPDATE_DATA',
     HANDLE_ERROR: userPrefix+'HANDLE_ERROR',
+    CLEAR: userPrefix+'CLEAR',
     // complex
     GET_USERS: userPrefix+'GET_USERS',
 };

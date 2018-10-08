@@ -12,23 +12,23 @@ function* getUsersSaga( action ) {
     // turn on preloader on admin page
     yield put({type: ADMIN.PRELOADER, preloader: true});
     // starting procedure of taking users array
-    yield put({type: ADMIN.GET_DATA.START, ...options });
-    // taking result of checking user login information
+    yield put({type: ADMIN.GET_DATA.START, ...options, listReady: false });
+    // taking result of importing users
     let result = yield take([ADMIN.GET_DATA.SUCCESS, ADMIN.GET_DATA.ERROR]);
     switch(result.type) {
-        // if login information correct & there is user with entered nick & pass
+        // if users are successfully received
         case ADMIN.GET_DATA.SUCCESS:
             let { type, ...pureResult } = result;
             yield put({ type: ADMIN.UPDATE_DATA, ...pureResult });
             break;
-        // if something happened
+        // if something happened and go wrong
         case ADMIN.GET_DATA.ERROR:
             let { error } = result;
             yield put({ type: ADMIN.UPDATE_DATA, ...error });
             break;
         default:
     }
-    // turn off preloader on login page
+    // turn off preloader on admin page
     yield put({type: ADMIN.PRELOADER, preloader: false});
 
 }
@@ -64,6 +64,6 @@ function getData () {
                 usersList: usersBase,
                 listReady: true
             });
-        }, 4*1000);
+        }, 1*1000);
     });
 }

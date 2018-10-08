@@ -1,7 +1,8 @@
 // outsource
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 import { connect } from 'react-redux';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 // local dependencies
 import { ADMIN } from "../../actions/types";
@@ -16,7 +17,16 @@ class Admin extends React.Component {
                     <Row>
                         <Col>
                             <div className='content-wrapper'>
-                                <h1 className='header'>Users Information</h1>
+                                <h1 className='header'>
+                                    Users Information
+                                    <Button onClick={this.props.loadUsers} color='warning' style={{margin: '0 5px'}}>
+                                        <FontAwesomeIcon icon='sync-alt'/>
+                                    </Button>
+                                    <Button color='success' style={{margin: '0 5px'}}>
+                                        <FontAwesomeIcon icon='plus'/>
+                                    </Button>
+                                </h1>
+
                                 {
                                     this.props.listReady ?
                                         <table className='user-info-table'>
@@ -27,6 +37,7 @@ class Admin extends React.Component {
                                                 <th>Nickname</th>
                                                 <th>Password</th>
                                                 <th>isAdmin</th>
+                                                <th>Options</th>
                                             </tr>
                                             </thead>
                                             <tbody>
@@ -39,13 +50,18 @@ class Admin extends React.Component {
                                                             <td>{user.nick}</td>
                                                             <td>{user.pass}</td>
                                                             <td>{user.admin ? 'admin' : '-'}</td>
+                                                            <td>
+                                                                <Button color='danger' outline style={{margin: '0 5px'}}>
+                                                                    <FontAwesomeIcon icon='user-minus'/>
+                                                                </Button>
+                                                                <Button color='warning' outline style={{margin: '0 5px'}}>
+                                                                    <FontAwesomeIcon icon='user-edit'/>
+                                                                </Button>
+                                                            </td>
                                                         </tr>
                                                     );
                                                 })
                                             }
-                                            <tr>
-
-                                            </tr>
                                             </tbody>
                                         </table>
                                                             :
